@@ -110,9 +110,7 @@ form {
   height: 450px;
   border-radius: 80px;
   padding-top: 30px;
-  
 }
-
 
 .contact-title {
   text-align: center;
@@ -201,15 +199,14 @@ footer > ul > li > a {
 }
 
 /* media query for monitor */
-@media(min-width: 1024px) {
-  
+@media (min-width: 1024px) {
   .nav-pic {
     height: 75px;
     width: 75px;
     margin-right: auto;
     right: 195px;
   }
-  
+
   .background1 {
     background-size: 1024px 900px;
   }
@@ -218,7 +215,6 @@ footer > ul > li > a {
     background-repeat: no-repeat;
     background-size: 1024px 1350px;
   }
-  
 
   footer {
     position: relative;
@@ -227,15 +223,14 @@ footer > ul > li > a {
 }
 
 /* media query for tablet */
-@media(min-width: 768px) and (max-width: 1023px) {
-  
+@media (min-width: 768px) and (max-width: 1023px) {
   .nav-pic {
     height: 75px;
     width: 75px;
     margin-right: auto;
     right: 70px;
   }
-  
+
   .background1 {
     background-size: 768px 900px;
   }
@@ -244,7 +239,7 @@ footer > ul > li > a {
     background-repeat: no-repeat;
     background-size: 768px 1350px;
   }
-  
+
   .menu-items {
     scale: 0.7;
     position: relative;
@@ -255,7 +250,6 @@ footer > ul > li > a {
     scale: 0.7;
     position: relative;
     bottom: 80px;
-
   }
 
   form {
@@ -270,17 +264,16 @@ footer > ul > li > a {
   }
 }
 /* media query for phone */
-@media(min-width: 320px) and (max-width: 767px) {
-  
+@media (min-width: 320px) and (max-width: 767px) {
   nav > ul {
     display: flex;
     flex-direction: column;
   }
-  
+
   nav > ul > li {
     font-size: 15px;
   }
-  
+
   .nav-pic {
     height: 50px;
     width: 50px;
@@ -289,7 +282,7 @@ footer > ul > li > a {
     top: 20px;
     right: 70px;
   }
-  
+
   .background1 {
     background-size: 320px 1600px;
   }
@@ -298,10 +291,9 @@ footer > ul > li > a {
     background-repeat: no-repeat;
     background-size: 320px 3300px;
   }
-  
+
   .menu-items {
     position: relative;
-  
   }
 
   .home {
@@ -314,16 +306,16 @@ footer > ul > li > a {
   }
 
   form {
-    scale: 0.50;
+    scale: 0.5;
     position: relative;
     width: 600px;
     height: 550px;
     bottom: 90px;
     right: 140px;
-    
   }
 
-  .text, .subject {
+  .text,
+  .subject {
     width: 400px;
     height: 100px;
   }
